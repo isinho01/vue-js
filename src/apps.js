@@ -7,7 +7,7 @@ const MynameApp = {
     },
     methods: {
         submitform(e) {
-            e.preventDefault(); // "P" em "preventDefault" deve ser minúsculo
+            e.preventDefault(); 
             console.log(this.input_name);
             this.nome = this.input_name;
         }
